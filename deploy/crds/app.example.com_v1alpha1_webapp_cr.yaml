@@ -1,0 +1,9 @@
+apiVersion: app.example.com/v1alpha1
+kind: WebApp
+metadata:
+  name: example-webapp
+spec:
+  # Add fields here
+  image: nginx
+  replicas: 1
+  port: 80
